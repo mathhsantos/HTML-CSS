@@ -48,19 +48,8 @@ main{
 
 @media screen and (orientation:landscape){
     #login{
-        background-color: white;
         width: 250px;
         height: 500px;
-        border: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 20px;
-        overflow:hidden;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-        transition: width 0.3s, height 0.3s;
-        transition-timing-function: ease;
     }
 }
 
