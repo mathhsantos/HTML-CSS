@@ -46,7 +46,7 @@ main{
     display: block;
 }
 
-@media (orientation: landscape){
+@media screen and (orientation: landscape){
     #login{
         width: 250px;
         height: 500px;
