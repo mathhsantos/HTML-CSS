@@ -30,6 +30,8 @@ main{
     border-radius: 20px;
     overflow:hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #login>#imagem{
@@ -42,4 +44,48 @@ main{
 #login>#formulario{
     padding: 10px;
     display: block;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #login>#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #login>#formulario{
+        float:right;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width: 950px;
+    }
+
+    #login>#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login>#formulario{
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
 }
