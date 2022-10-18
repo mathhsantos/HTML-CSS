@@ -65,3 +65,18 @@ main p{
     text-indent: 20px;
 }
 
+@media screen and (min-width: 768px){
+    header li{
+        color: black;
+        padding:10px;
+        display: inline-block;
+    }    
+
+    #iconmenu{
+        display: none;
+    }
+
+    main{
+        width: 768px;
+    }
+} 
