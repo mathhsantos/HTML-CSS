@@ -1,7 +1,7 @@
 @import "UTF-8";
 
 *{
-    font-family: 'Helvetica neue', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@ main{
 #login{
     background-color: white;
     width: 250px;
-    height: 530px;
+    height: 540px;
     border: 20px;
     position: absolute;
     top: 50%;
@@ -53,6 +53,7 @@ main{
 
 #formulario p{
     font-size: 0.8em;
+    text-align: justify;
 }
 
 form>input[type="submit"]{
@@ -67,12 +68,28 @@ form>input[type="submit"]{
 }
 
 .campo{
-    background-color: #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
-    margin: 5px 0px;
+    border-radius: 8px;
+    margin: 15px 0px;
+}
+
+.campo>span{
+    color: #408b89;
+    font-size: 2em;
+    width: 40px;
+    padding: 4px;
+}
+
+.campo>input{
+    background-color: white;
+    width: 80.5%;
+    height: 100%;
+    transform: translateY(-11px);
+    border-radius: 8px;
+    padding: 4px;
+    border: 1px solid #408b89;
 }
 
 form>input[type="submit"]:hover{
@@ -109,6 +126,7 @@ form>a>#icon{
 
     #login{
         width: 80vw;
+        height: 350px;
     }
 
     #login>#imagem{
@@ -122,6 +140,10 @@ form>a>#icon{
         width: 70%;
         height: 100%;
     }
+
+    .campo>input{
+        width: 89%;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -131,6 +153,7 @@ form>a>#icon{
 
     #login{
         width: 950px;
+        height: 360px;
     }
 
     #login>#imagem{
@@ -151,5 +174,9 @@ form>a>#icon{
 
     #formulario p{
         font-size: 1.1em;
+    }
+
+    .campo>input{
+        width: 90.2%;
     }
 }
