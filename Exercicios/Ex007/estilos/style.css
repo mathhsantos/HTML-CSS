@@ -21,15 +21,15 @@ main{
 #login{
     background-color: white;
     width: 250px;
-    height: 540px;
+    height: 560px;
     border: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
     overflow:hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -48,7 +48,9 @@ main{
 
 #formulario h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+    color: #408b89;
 }
 
 #formulario p{
@@ -86,10 +88,10 @@ form>input[type="submit"]{
     background-color: white;
     width: 80.5%;
     height: 100%;
-    transform: translateY(-11px);
     border-radius: 8px;
     padding: 4px;
     border: 1px solid #408b89;
+    transform: translateY(-11px);
 }
 
 form>input[type="submit"]:hover{
