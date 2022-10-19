@@ -21,7 +21,7 @@ main{
 #login{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border: 20px;
     position: absolute;
     top: 50%;
@@ -44,6 +44,62 @@ main{
 #login>#formulario{
     padding: 10px;
     display: block;
+}
+
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario p{
+    font-size: 0.8em;
+}
+
+form>input[type="submit"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.campo{
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form>input[type="submit"]:hover{
+    background-color: #2f6663;
+    cursor: pointer;
+}
+
+form>#button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: #408b89;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+form>#button:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+form>a>#icon{
+    font-size: 1em;
+    display: block;
+    margin: 5px;
 }
 
 @media screen and (min-width: 768px){
@@ -87,5 +143,13 @@ main{
         float:left;
         width: 50%;
         height: 100%;
+    }
+
+    #formulario h1{
+        font-size: 1.9em;
+    }
+
+    #formulario p{
+        font-size: 1.1em;
     }
 }
